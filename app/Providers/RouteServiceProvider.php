@@ -47,9 +47,11 @@ class RouteServiceProvider extends ServiceProvider
                 ->namespace($this->namespace)
                 ->group(base_path('routes/web.php'));
         });
-        resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
+        if(env('APP_ENV' == 'production')) {
+            resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
 
-        parent::boot();
+            parent::boot();
+        }
     }
 
     /**

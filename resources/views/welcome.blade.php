@@ -172,7 +172,7 @@
 						<div class="widget no-container rounded text-md-center">
 							<span class="ads-title">- IBD Quotes -</span>
 							<a href="#" class="widget-ads">
-								<img src="{{ asset('base') }}/images/ads/ad-360.png" alt="Ibrahim Bello Dauda" />
+								<img src="https://res.cloudinary.com/letech-digital-solutions/image/upload/v1625660853/IMG_3235-min-scaled_jqpfeo.jpg" alt="Ibrahim Bello Dauda" />
 							</a>
 						</div>
 

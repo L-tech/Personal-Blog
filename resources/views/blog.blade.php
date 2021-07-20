@@ -19,7 +19,7 @@
 			<div class="row gy-4">
 
 				<div class="col-lg-8">
-
+                    @if($latest_blog)
 					<!-- featured post large -->
 					<div class="post featured-post-lg">
 						<div class="details clearfix">
@@ -36,6 +36,7 @@
 							</div>
 						</a>
 					</div>
+                    @endif
 
 				</div>
 
@@ -120,7 +121,7 @@
 					<!-- section header -->
 					<div class="section-header">
 						<h3 class="section-title">Editor’s Pick</h3>
-						<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda - {{ $item->title }}" />
+						<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda" />
 					</div>
 
 					<div class="padding-30 rounded bordered">
@@ -188,7 +189,7 @@
 					<!-- section header -->
 					<div class="section-header">
 						<h3 class="section-title">Trending</h3>
-						<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda - {{ $item->title }}" />
+						<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda" />
 						<div class="slick-arrows-top">
 							<button type="button" data-role="none" class="carousel-topNav-prev slick-custom-buttons" aria-label="Previous"><i class="icon-arrow-left"></i></button>
 							<button type="button" data-role="none" class="carousel-topNav-next slick-custom-buttons" aria-label="Next"><i class="icon-arrow-right"></i></button>
@@ -224,7 +225,7 @@
 					<!-- section header -->
 					<div class="section-header">
 						<h3 class="section-title">Latest Posts</h3>
-						<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda - {{ $item->title }}" />
+						<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda" />
 					</div>
 
 					<div class="padding-30 rounded bordered">
@@ -307,7 +308,7 @@
 						<div class="widget rounded">
 							<div class="widget-header text-center">
 								<h3 class="widget-title">Popular Posts</h3>
-								<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda - {{ $item->title }}" />
+								<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda" />
 							</div>
 							<div class="widget-content">
 								<!-- post -->
@@ -337,7 +338,7 @@
 						<div class="widget rounded">
 							<div class="widget-header text-center">
 								<h3 class="widget-title">Explore Categories</h3>
-								<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda - {{ $item->title }}" />
+								<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda" />
 							</div>
 							<div class="widget-content">
 								<ul class="list">
@@ -354,7 +355,7 @@
 						<div class="widget rounded">
 							<div class="widget-header text-center">
 								<h3 class="widget-title">Newsletter</h3>
-								<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda - {{ $item->title }}" />
+								<img src="{{ asset('base') }}/images/wave.svg" class="wave" alt="Ibrahim Bello Dauda" />
 							</div>
 							<div class="widget-content">
 								<span class="newsletter-headline text-center mb-3">Join 70,000 subscribers!</span>
@@ -372,7 +373,7 @@
 						<div class="widget no-container rounded text-md-center">
 							<span class="ads-title">- IBD Quotes -</span>
 							<a href="#" class="widget-ads">
-								<img src="{{ asset('base') }}/images/ads/ad-360.png" alt="Advertisement" />
+								<img src="https://res.cloudinary.com/letech-digital-solutions/image/upload/v1625660853/IMG_3235-min-scaled_jqpfeo.jpg" alt="Ibrahim Bello Dauda" />
 							</a>
 						</div>
 

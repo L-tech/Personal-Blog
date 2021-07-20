@@ -27,9 +27,10 @@ Route::get('/category/{slug}', [PagesController::class, 'category'])->name('cate
 Route::get('/contact', function () {
     return view('contact');
 });
-// Route::get('/register', function () {
-//     return redirect('/');
-// });
+// Disable registration feature
+Route::get('/register', function () {
+    return redirect('/');
+});
 Route::get('admin/logout', [AuthenticatedSessionController::class, 'destroy'])
         ->name('adminlogout');
 

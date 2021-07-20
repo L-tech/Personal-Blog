@@ -84,6 +84,7 @@
 
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
             <div class="widget widget-card-one">
+                @if($latest_blog)
                 <div class="widget-content">
 
                     <div class="media">
@@ -109,6 +110,7 @@
                         </div>
                     </div>
                 </div>
+                @endif
             </div>
 
         </div>

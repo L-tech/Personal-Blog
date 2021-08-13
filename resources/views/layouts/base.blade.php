@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('base') }}/images/a.png">
     <meta name="description" content="Dr Ibrahim Bello Dauda - Get access to great insights on philosophy, leadership and development."/>
     <link rel="canonical" href="{{ url('/') }}"/>
+    <meta name="theme-color" content="#52ab98">
     <meta property="og:locale" content="en_US"/>
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Dr Ibrahim Bello Dauda"/>
